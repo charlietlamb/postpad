@@ -9,7 +9,7 @@ import {
 import ScheduleSidebarCalendar from './ScheduleSidebarCalendar'
 import ScheduleSidebarHeader from './ScheduleSidebarHeader'
 import { useAtom } from 'jotai'
-import { scheduleSidebarAtom } from '@/atoms/scheduleSidebarAtom'
+import { scheduleSidebarAtom } from '@/atoms/dashboard/schedule/scheduleSidebarAtom'
 
 export default function ScheduleSidebar() {
   const [open, setOpen] = useAtom(scheduleSidebarAtom)

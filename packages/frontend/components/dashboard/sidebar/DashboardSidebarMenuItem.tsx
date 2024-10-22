@@ -18,7 +18,7 @@ export default function DashboardSidebarMenuItem({
           className="mx-auto py-1 h-auto flex items-center"
         >
           {iconWithClassName}
-          <span className="">{item.title}</span>
+          <span className="text-base">{item.title}</span>
         </Link>
       </SidebarMenuButton>
     </SidebarMenuItem>
