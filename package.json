@@ -1,0 +1,20 @@
+{
+  "name": "postpad",
+  "module": "index.ts",
+  "scripts": {
+    "dev": "cd packages/frontend && bun dev",
+    "gen": "cd packages/backend && bunx drizzle-kit generate",
+    "migrate": "cd packages/backend && bunx drizzle-kit migrate",
+    "studio": "cd packages/backend && bunx drizzle-kit studio"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ]
+}
