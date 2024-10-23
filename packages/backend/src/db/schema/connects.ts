@@ -12,6 +12,8 @@ export const connects = pgTable('connects', {
     .references(() => users.id)
     .notNull(),
   platform: text('platform').notNull(),
+  username: text('username').notNull(),
+  image: text('image'),
   ...timestamps,
 })
 

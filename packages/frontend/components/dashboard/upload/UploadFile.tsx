@@ -16,7 +16,7 @@ export default function UploadFile() {
         alert(`ERROR! ${error.message}`)
       }}
       appearance={{
-        button: 'bg-zinc-600 font-base font-bold',
+        button: 'bg-theme-600 font-base font-bold',
         container: 'w-full',
       }}
     />

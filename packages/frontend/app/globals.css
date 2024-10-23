@@ -50,6 +50,17 @@ body {
     --theme-primary: 185 100% 57%;
     --theme-bg: 210 100% 12%;
     --theme-fg: 203 41% 39%;
+    --theme-50: #fafafa;
+    --theme-100: #f4f4f5;
+    --theme-200: #e4e4e7;
+    --theme-300: #d4d4d8;
+    --theme-400: #a1a1aa;
+    --theme-500: #71717a;
+    --theme-600: #52525b;
+    --theme-700: #3f3f46;
+    --theme-800: #27272a;
+    --theme-900: #18181b;
+    --theme-950: #09090b;
   }
   .dark {
     --background: 0 0% 3.9%;
@@ -87,6 +98,17 @@ body {
     --theme-primary: 185 100% 57%;
     --theme-bg: 210 100% 12%;
     --theme-fg: 203 41% 39%;
+    --theme-50: #09090b;
+    --theme-100: #18181b;
+    --theme-200: #27272a;
+    --theme-300: #3f3f46;
+    --theme-400: #52525b;
+    --theme-500: #71717a;
+    --theme-600: #a1a1aa;
+    --theme-700: #d4d4d8;
+    --theme-800: #e4e4e7;
+    --theme-900: #f4f4f5;
+    --theme-950: #fafafa;
   }
 }
 

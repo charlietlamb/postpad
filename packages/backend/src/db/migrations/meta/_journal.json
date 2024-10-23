@@ -8,6 +8,20 @@
       "when": 1729540666410,
       "tag": "0000_gorgeous_ben_parker",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1729622752443,
+      "tag": "0001_clammy_stryfe",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1729714564602,
+      "tag": "0002_chemical_zaran",
+      "breakpoints": true
     }
   ]
 }

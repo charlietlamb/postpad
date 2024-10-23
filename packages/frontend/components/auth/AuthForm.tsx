@@ -75,7 +75,7 @@ export default function AuthForm({ className, ...props }: UserAuthFormProps) {
             Sign In with Email
           </Button>
         </div>
-        <div className="bg-zinc-100 text-zinc-500 gap-2 flex items-center justify-center p-2 rounded-lg mt-4">
+        <div className="bg-theme-100 text-theme-500 gap-2 flex items-center justify-center p-2 rounded-lg mt-4">
           <Sparkles />
           <p>You'll receive a link for a password free log in.</p>
         </div>
