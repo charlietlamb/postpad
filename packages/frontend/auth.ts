@@ -1,6 +1,6 @@
 import NextAuth from 'next-auth'
 import { DrizzleAdapter } from '@auth/drizzle-adapter'
-import { db } from '@backend/db/postgres'
+import { db } from '../backend/src/db/postgres'
 import Resend from 'next-auth/providers/resend'
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
