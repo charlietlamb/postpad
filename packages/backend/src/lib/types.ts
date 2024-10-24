@@ -1,3 +1,4 @@
+import { AppType } from '@/app'
 import { OpenAPIHono, RouteConfig, RouteHandler } from '@hono/zod-openapi'
 import { PinoLogger } from 'hono-pino'
 

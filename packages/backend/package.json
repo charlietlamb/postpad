@@ -19,6 +19,7 @@
     "pino-pretty": "^11.3.0",
     "postgres": "3.3",
     "stoker": "^1.2.7",
+    "tsc": "^2.0.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {

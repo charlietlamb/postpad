@@ -17,3 +17,5 @@ routes.forEach((route) => {
 export default app
 
 export type AppType = (typeof routes)[number]
+export type TestType = { test: string }
+export type App = typeof app

@@ -25,7 +25,7 @@ export default function DashboardBreadcrumb() {
           return (
             <React.Fragment key={href}>
               <BreadcrumbItem>
-                <BreadcrumbLink href={href} className="font-bold">
+                <BreadcrumbLink href={href} className="font-semibold font-base">
                   {segment.charAt(0).toUpperCase() + segment.slice(1)}
                 </BreadcrumbLink>
               </BreadcrumbItem>

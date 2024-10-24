@@ -5,13 +5,14 @@
     "dev": "cd packages/frontend && bun dev",
     "gen": "cd packages/backend && bunx drizzle-kit generate",
     "migrate": "cd packages/backend && bunx drizzle-kit migrate",
-    "studio": "cd packages/backend && bunx drizzle-kit studio"
+    "studio": "cd packages/backend && bunx drizzle-kit studio",
+    "typeup": "cd packages/backend && tsc --build ."
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.6.3"
   },
   "type": "module",
   "workspaces": [

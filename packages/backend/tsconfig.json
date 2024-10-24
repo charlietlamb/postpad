@@ -3,7 +3,12 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": ".",
+    "outDir": "types",
+    "composite": true
   },
   "extends": "../../tsconfig.base.json"
 }
